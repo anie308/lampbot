@@ -42,5 +42,8 @@ body {
 
 .box-shad{
   box-shadow: 8px 8px 12px #FBFB56 , -5px -5px 4px #FFFF0140;  
-  
+}
+
+.linear{
+  background: linear-gradient( #FFFF01 100%, #FAE18A 100%, #FFFF01 100%);
 }
