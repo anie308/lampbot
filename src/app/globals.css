@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "NicoMoji-Regular";
+  src: url("/fonts/NicoMoji-Regular.ttf"); 
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,6 +22,8 @@
   }
 }
 
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +38,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.box-shad{
+  box-shadow: 8px 8px 12px #FBFB56 , -5px -5px 4px #FFFF0140;  
+  
 }
