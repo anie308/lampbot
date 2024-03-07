@@ -6,7 +6,7 @@ import pic from "../assets/pic.png";
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="flex flex-col items-start w-full h-full lg:min-h-screen p-[10px] lg:p-[20px_100px]">
+    <main className="flex flex-col bg-black items-start w-full h-full lg:min-h-screen p-[10px] lg:p-[20px_100px]">
       <div className="text-white flex justify-between items-center w-full">
         <div>
           <Link href="/">
