@@ -35,11 +35,11 @@ export default function Home() {
           <p className="text-[#FFFF01] font-nick uppercase text-[24px] lg:text-[40px]">
             Lamps on Blast⚡
           </p>
-          <p className="w-[90%] text-[20px] text-white font-manrope leading-[32px]">
+          <p className="w-full lg:w-[90%] text-[16px] lg:text-[20px] text-[#FFFFFFCC] font-manrope leading-[32px]">
             Empowering the trillion dollar blockchain economy with lightning
             speed multichain trading tools.
           </p>
-          <p className="font-manrope mt-[20px] text-white text-[20px]">V.1 coming soon on <span className="font-[800]">Blast️</span></p>
+          <p className="font-manrope mt-[20px] text-[#FFFFFFCC] text-[16px] lg:text-[20px]">V.1 coming soon on <span className="font-[800] text-white">Blast️</span></p>
           <div className="mt-[40px] w-full grid lg:grid-cols-2 items-center gap-[40px] ">
             <div>
               <p className="text-[14px] text-[#FFFF01] font-nick">Enter {`Password`}</p>
